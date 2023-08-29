@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>homework_10</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <div class="header__desc">
+                <img src="./images/header_menu_icon.svg" alt="menu icon">
+                <a href="#">Каталог</a>
+                <a href="#">Торты</a>
+                <a href="#">Десерты в баночках</a>
+                <a href="#">Покупателям</a>
+            </div>
+            <div class="header__title">
+                <p>NapoleonCake</p>
+            </div>
+            <div class="header__number">
+                <p>8 800 200-95-70</p>
+            </div>
+            <div class="header__icon">
+                <img src="./images/search-outline.svg" alt="icons">
+                <img src="./images/person-outline.svg" alt="icons">
+                <img src="./images/heart-outline.svg" alt="icons">
+                <img src="./images/bag-outline.svg" alt="icons">
+            </div>
+        </header>
+        <div class="nav">
+            Главная. Оформление заказа
+        </div>
+        <section class="main__section">
+           <div>
+            <div class="main__title">
+                <p>Оформление заказа</p>
+            </div>
+            <p class="row__title">Личные данные</p>
+            <div class="first__row">
+                <div class=" first__card">
+                    <label for="name"> </label>
+                    <input
+                    class="input"
+                     type="text"
+                     name="name"
+                     id="name"
+                     required
+                     placeholder="Имя"
+                     >
+                </div>
+                <div class="first__card">
+                    <label for="tell"> </label>
+                    <input
+                    class="input"
+                     type="tel"
+                     name="phone"
+                     id="tell"
+                     required
+                     placeholder="Телефон"
+                     >
+                </div>
+            </div>
+            <p class="row__title"> Информация по доставке</p>
+            <div class="second__row">
+                <div class="second__card">
+                    <label for="kuryer"></label>
+                    <input 
+                    class="text__input"
+                    placeholder="Курьер"
+                    required
+                    name="kuryer"
+                    id="kuryer"
+                    type="text" 
+                    >
+                    <label for="kuryer"></label>
+                    <input 
+                    class="text__input"
+                    placeholder="Самовывоз"
+                    required
+                    name="kuryer"
+                    id="kuryer"
+                    type="text" 
+                    >
+                </div>
+                <div class="card">
+                    <label for="zone"></label>
+                    <select name="zone" id="zone" class="select" >
+                        <option value="0">Район доставки</option>
+                        <option value="1">Tashkent</option>
+                        <option value="2">Andijan</option>
+                        <option value="3">Fergana</option>
+                        <option value="4">Samarqand</option>
+                      </select>
+                </div>
+                <div class="card">
+                    <label for="street"> </label>
+                    <input
+                    class="input"
+                     type="text"
+                     name="streetname"
+                     id="street"
+                     required
+                     placeholder="ИУлица"
+                     >
+                  </div>
+                  <div class="card__plus left">
+                    <label for="cards"> </label>
+                    <input
+                    class="child__input"
+                     type="text"
+                     name="cards"
+                     id="cards"
+                     required
+                     placeholder="Дом"
+                     >
+                     <label for="cards"> </label>
+                     <input
+                     class="child__input"
+                      type="text"
+                      name="cards"
+                      id="cards"
+                      required
+                      placeholder="Под."
+                      >
+                      <label for="cards"> </label>
+                      <input
+                      class="child__input"
+                       type="text"
+                       name="cards"
+                       id="cards"
+                       required
+                       placeholder="Эт."
+                       >
+                       <label for="cards"> </label>
+                       <input
+                       class="child__input"
+                        type="text"
+                        name="cards"
+                        id="cards"
+                        required
+                        placeholder="Кв."
+                        >
+                  </div>
+            </div>
+            <textarea name="text" id="text" cols="84" rows="3"  class="textarea" placeholder="Комментарии"></textarea>
+            <div class="second__row">
+                <label for="zone"></label>
+                    <select name="zone" id="zone" class="select" >
+                        <option value="0">Дата доставки</option>
+                      </select>
+                      <select name="zone" id="zone" class="select" >
+                        <option value="0">10:00-15:00, 450 ₽</option>
+                      </select>
+            </div>
+           </div>
+           <div class="float">
+            <img src="./images/section_img.png" alt="" class="section__img">
+           </div>
+        </section>
+
+    </div>
+</body>
+</html>
